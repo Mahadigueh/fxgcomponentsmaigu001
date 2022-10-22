@@ -1,0 +1,23 @@
+{
+  "name": "componentreactmahad",
+  "version": "1.0.0",
+  "description": "une librairie de component react",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mahadigueh/fxgcomponentsmaigu001.git"
+  },
+  "keywords": [
+    "react",
+    "components"
+  ],
+  "author": "Mahad IGUEH GUELLEH",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Mahadigueh/fxgcomponentsmaigu001/issues"
+  },
+  "homepage": "https://github.com/Mahadigueh/fxgcomponentsmaigu001#readme"
+}
