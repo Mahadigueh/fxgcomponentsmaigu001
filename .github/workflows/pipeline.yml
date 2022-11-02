@@ -42,4 +42,4 @@ jobs:
       with:
         server: ${{ secrets.HOTE_SERVEUR }}
         username: ${{ secrets.USERNAME }}
-        password: ${{ secrets.FTP_PASSWORD }}
+        password: ${{ secrets.PASSWORD_FTP }}
