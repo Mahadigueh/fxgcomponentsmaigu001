@@ -17,6 +17,7 @@ jobs:
         - run: npm version patch -m "[RELEASE] %s"      
         - run: git push
         - run: git push --tags 
+        
   publish:
       runs-on: ubuntu-latest
       steps:
