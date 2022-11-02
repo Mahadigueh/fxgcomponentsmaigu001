@@ -17,7 +17,7 @@ jobs:
         - run: npm version patch -m "[RELEASE] %s"      
         - run: git push
         - run: git push --tags 
-        
+
   publish:
       runs-on: ubuntu-latest
       steps:
@@ -29,3 +29,17 @@ jobs:
         - uses: JS-DevTools/npm-publish@v1
           with:
             token: ${{ secrets.MON_SECRET }}
+
+  web-deploy:
+    name: 🎉 Deploy
+    runs-on: ubuntu-latest
+    steps:
+    - name: 🚚 Get latest code
+      uses: actions/checkout@v2
+    
+    - name: 📂 Sync files
+      uses: SamKirkland/FTP-Deploy-Action@4.3.2
+      with:
+        server: ${{ secrets.HOTE_SERVEUR }}
+        username: ${{ secrets.USERNAME }}
+        password: ${{ secrets.FTP_PASSWORD }}
