@@ -3,6 +3,9 @@
 
 Bibliothèque de 10 composantes React réutilisables :
 
+Pour installer ces 10 composantes taper la commande suivante dans votre terminal: 
+npm i componentreactmahad 
+
 - [Alert](#alert)
 - [Autocomplete](#autocomplete)
 - [Bouton](#bouton)
