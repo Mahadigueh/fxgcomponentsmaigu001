@@ -1,6 +1,5 @@
 import React from 'react';
-import Bouton from '../components/Bouton/Bouton.js';
-
+import Bouton from '../lib/Bouton/Bouton.js';
 
 export default {
   component: Bouton,

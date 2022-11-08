@@ -1,6 +1,5 @@
 import React from 'react';
-import Menu from '../components/Menu/Menu.js';
-
+import Menu from '../lib/Menu/Menu.js';
 
 export default {
   component: Menu,
