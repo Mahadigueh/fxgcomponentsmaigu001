@@ -1,5 +1,5 @@
 
-# Description 
+# Description. 
 
 Bibliothèque de 10 composantes React réutilisables :
 
