@@ -1,6 +1,7 @@
 import React from 'react';
 import BoutonsFlottants from '../components/BoutonsFlottants/BoutonsFlottants.js';
 
+
 export default {
   component: BoutonsFlottants,
   title: 'Components-TP1/BoutonsFlottants',

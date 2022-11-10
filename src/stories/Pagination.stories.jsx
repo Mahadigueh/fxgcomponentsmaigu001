@@ -1,6 +1,7 @@
 import React from 'react';
 import Pagination from '../components/Pagination/Pagination.js';
 
+
 export default {
   component: Pagination,
   title: 'Components-TP1/Pagination',

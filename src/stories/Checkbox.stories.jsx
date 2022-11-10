@@ -1,6 +1,7 @@
 import React from 'react';
 import CheckBox from '../components/CheckBox/Checkbox.js';
 
+
 export default {
   component: CheckBox,
   title: 'Components-TP1/CheckBox',
