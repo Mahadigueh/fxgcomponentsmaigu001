@@ -1,6 +1,5 @@
 import React from 'react';
-import Grid from '../components/Grid/Grid.js';
-
+import Grid from '../lib/Grid/Grid.js';
 
 export default {
   component: Grid,

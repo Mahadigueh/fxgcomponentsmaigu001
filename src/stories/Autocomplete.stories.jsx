@@ -1,6 +1,5 @@
 import React from 'react';
-import Autocomplete from '../components/Autocomplete/Autocomplete.js';
-
+import Autocomplete from '../lib/Autocomplete/Autocomplete.js';
 
 export default {
   component: Autocomplete,
@@ -27,4 +26,3 @@ DisableClear.args = {
     disableCloseOnSelect : true,
     disableClearable : true, //Pour empecher de supprimer avec le symbole "x"
 };
-
