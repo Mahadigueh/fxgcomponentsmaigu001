@@ -1,5 +1,5 @@
 import React from 'react';
-import Pagination from '../lib/Pagination/Pagination.js';
+import Pagination from '../components/Pagination/Pagination.js';
 
 export default {
   component: Pagination,

@@ -1,5 +1,5 @@
 import React from 'react';
-import Switch from '../lib/Switch/Switch.js';
+import Switch from '../components/Switch/Switch.js';
 
 export default {
   component: Switch,

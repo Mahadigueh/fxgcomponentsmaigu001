@@ -1,5 +1,5 @@
 import React from 'react';
-import Alert from '../lib/Alert/Alert.js';
+import Alert from '../components/Alert/Alert.js';
 
 export default {
   component: Alert,

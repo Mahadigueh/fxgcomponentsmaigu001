@@ -1,5 +1,5 @@
 import React from 'react';
-import BoutonsFlottants from '../lib/BoutonsFlottants/BoutonsFlottants.js';
+import BoutonsFlottants from '../components/BoutonsFlottants/BoutonsFlottants.js';
 
 export default {
   component: BoutonsFlottants,

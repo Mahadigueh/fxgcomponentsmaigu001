@@ -1,5 +1,5 @@
 import React from 'react';
-import CheckBox from '../lib/CheckBox/Checkbox.js';
+import CheckBox from '../components/CheckBox/Checkbox.js';
 
 export default {
   component: CheckBox,

@@ -1,5 +1,5 @@
 import React from 'react';
-import Autocomplete from '../lib/Autocomplete/Autocomplete.js';
+import Autocomplete from '../components/Autocomplete/Autocomplete.js';
 
 export default {
   component: Autocomplete,
