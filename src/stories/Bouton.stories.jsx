@@ -31,3 +31,11 @@ Archived.args = {
     text : "Bouton 3",
     color: "success"
 };
+
+export const Patate = Template.bind({});
+Patate.args = {
+    width: 600,
+    variant: "contained",
+    text : "Patate",
+    color: "success"
+};
